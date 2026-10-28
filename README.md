@@ -13,16 +13,19 @@ I wanted to read the web without hauling a browser along, so I built [termbrowse
 ## Work
 
 [**termbrowse**](https://github.com/dev-the-dev-while-deving/termbrowse) · Rust
-A terminal session for the web. Fetch the page, drop the JavaScript, lay out what is left in 256 colors.
-[Site](https://dev-the-dev-while-deving.github.io/termbrowse/)
+
+A terminal session for the web. Fetch the page, drop the JavaScript, lay out what is left in 256 colors. [Site](https://dev-the-dev-while-deving.github.io/termbrowse/).
 
 [**ROLLDEEP**](https://github.com/dev-the-dev-while-deving/rolldeep-lab) · TypeScript
+
 A study lab that runs on your machine. One roll, one topic, one block of work. Finish it and that topic does not come back. MIT.
 
 [**breakbench**](https://github.com/dev-the-dev-while-deving/breakbench) · Python
+
 Open Agent Hackathon 2026. Five attacks against a naive in-process agent, with the payload and the verdict kept so someone else can replay them. Standard library only.
 
 [**CUT**](https://github.com/dev-the-dev-while-deving/cut-studio) · JavaScript
+
 A personal site with hard edges. React, Vite, and a scroll-driven WebGL layer.
 
 ---
