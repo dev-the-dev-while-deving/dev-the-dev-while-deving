@@ -6,44 +6,29 @@
 
 I'm Devarshee. I study computer science at RV University, and the software I finish tends to come from one irritation.
 
-I wanted to read the web without hauling a browser along, so I built [termbrowse](https://github.com/dev-the-dev-while-deving/termbrowse). I kept opening a study app and spending the session choosing what to study, so I built [ROLLDEEP](https://github.com/dev-the-dev-while-deving/rolldeep-lab). I got tired of agent demos that only show the run that worked, so I built [breakbench](https://github.com/dev-the-dev-while-deving/breakbench), which fails on purpose and writes the failure down.
-
-[CUT](https://github.com/dev-the-dev-while-deving/cut-studio) is the odd one out. It is a personal site, neon and blunt, with a WebGL scene tied to the scroll. The rest of the public work is in the list.
+I wanted to read the web without hauling a browser along, so I built **termbrowse**. I kept opening a study app and spending the session choosing what to study, so I built **ROLLDEEP**. I got tired of agent demos that only show the run that worked, so I built **breakbench**, which fails on purpose and writes the failure down.
 
 ## Work
 
-[**termbrowse**](https://github.com/dev-the-dev-while-deving/termbrowse) · Rust
+<p>
+  <a href="https://github.com/dev-the-dev-while-deving/termbrowse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-termbrowse-dark.svg"><img alt="termbrowse, Rust" src="assets/card-termbrowse-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-rolldeep-dark.svg"><img alt="ROLLDEEP, TypeScript" src="assets/card-rolldeep-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/dev-the-dev-while-deving/breakbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-breakbench-dark.svg"><img alt="breakbench, Python" src="assets/card-breakbench-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/dev-the-dev-while-deving/cut-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cut-dark.svg"><img alt="CUT, JavaScript" src="assets/card-cut-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/dev-the-dev-while-deving/kokou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-kokou-dark.svg"><img alt="Kokou, macOS" src="assets/card-kokou-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/dev-the-dev-while-deving/printquote-site"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-printquote-dark.svg"><img alt="PrintQuote, TypeScript" src="assets/card-printquote-light.svg" width="49%"></picture></a>
+</p>
 
-A terminal session for the web. Fetch the page, drop the JavaScript, lay out what is left in 256 colors. [Site](https://dev-the-dev-while-deving.github.io/termbrowse/).
+Also: [SmartStock](https://github.com/dev-the-dev-while-deving/SmartStocks), a Flask inventory system for a DBMS course, and [Enigma](https://github.com/dev-the-dev-while-deving/Enigma-Hackthon), a 24-hour hackathon driving agent built on a Bayesian model in PyTorch.
 
-[**ROLLDEEP**](https://github.com/dev-the-dev-while-deving/rolldeep-lab) · TypeScript
+## Now
 
-A study lab that runs on your machine. One roll, one topic, one block of work. Finish it and that topic does not come back. MIT.
-
-[**breakbench**](https://github.com/dev-the-dev-while-deving/breakbench) · Python
-
-Open Agent Hackathon 2026. Five attacks against a naive in-process agent, with the payload and the verdict kept so someone else can replay them. Standard library only.
-
-[**CUT**](https://github.com/dev-the-dev-while-deving/cut-studio) · JavaScript
-
-A personal site with hard edges. React, Vite, and a scroll-driven WebGL layer.
-
-[**Kokou**](https://github.com/dev-the-dev-while-deving/kokou) · Mac
-
-A productivity app for the Mac, with a site and a downloadable build. The name is the Japanese 孤高, a solitary ascent.
-
-[**SmartStock**](https://github.com/dev-the-dev-while-deving/SmartStocks) · Python
-
-Inventory and orders for a DBMS course. Flask, SQLite or MySQL, stock movements, and a dashboard for what is running low.
-
-[**Enigma**](https://github.com/dev-the-dev-while-deving/Enigma-Hackthon) · Python
-
-A 24-hour hackathon build. A predictive driving agent in a highway simulator, using a Bayesian model in PyTorch.
-
-[**PrintQuote**](https://github.com/dev-the-dev-while-deving/printquote-site)
-
-A shop quote from a drawing or a WhatsApp RFQ, with GST already on it. The public repo is the marketing page.
+**Life Quest.** An Android app, Kotlin and Jetpack Compose, that turns training, routines and sleep into a game with a path, streaks and chests. Every byte stays on the phone. Not public yet.
 
 ---
 
-Rust · TypeScript · Python · JavaScript
+<sub>Rust · TypeScript · Python · Kotlin · <a href="https://termbrowse.vercel.app">termbrowse.vercel.app</a></sub>
