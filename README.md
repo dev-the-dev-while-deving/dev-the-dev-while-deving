@@ -1,10 +1,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/mark-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/mark-light.svg">
-  <img alt="Devarshee Jitendra Mude, computer science at RV University. A terminal types browse, roll, and break." src="assets/mark-light.svg" width="100%">
+  <img alt="Devarshee Jitendra Mude, computer science at RV University and data science at IIT Madras. A terminal types browse, roll, and break." src="assets/mark-light.svg" width="100%">
 </picture>
 
-I'm Devarshee. I study computer science at RV University, and the software I finish tends to come from one irritation.
+I'm Devarshee. I study computer science at RV University and data science at IIT Madras, where I am doing the BS. The software I finish tends to come from one irritation.
 
 I wanted to read the web without hauling a browser along, so I built **termbrowse**. I kept opening a study app and spending the session choosing what to study, so I built **ROLLDEEP**. I got tired of agent demos that only show the run that worked, so I built **breakbench**, which fails on purpose and writes the failure down.
 

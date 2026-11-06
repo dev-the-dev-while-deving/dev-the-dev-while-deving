@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
   <title id="title">Devarshee Jitendra Mude</title>
-  <desc id="desc">Computer science at RV University. A terminal types browse, roll, and break.</desc>
+  <desc id="desc">Computer science at RV University, BS in data science at IIT Madras. A terminal types browse, roll, and break.</desc>
   <style>
     :root { --bg: #f3f0e7; --ink: #161616; --muted: #5c5952; --sub: #3c3a34; --term: #e4e0d2; }
     text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -31,11 +31,11 @@
   <rect class="lime" x="76" y="78" width="16" height="16" stroke="#161616" stroke-width="2">
     <animate attributeName="opacity" values="1;0.3;1" keyTimes="0;0.55;1" dur="2.4s" repeatCount="indefinite" calcMode="discrete"/>
   </rect>
-  <text class="muted sans kicker" x="104" y="91">RV UNIVERSITY</text>
+  <text class="muted sans kicker" x="104" y="91">RV UNIVERSITY · IIT MADRAS</text>
   <text class="ink sans name" x="76" y="210">Devarshee</text>
   <path class="hair" d="M78 232h340" stroke-width="3"/>
   <text class="ink sans small" x="76" y="272">JITENDRA MUDE</text>
-  <text class="sub sans role" x="76" y="314">Computer science</text>
+  <text class="sub sans role" x="76" y="314">Computer science · Data science</text>
   <rect class="term" x="700" y="64" width="452" height="352"/>
   <line class="hair" x1="700" y1="108" x2="1152" y2="108"/>
   <rect class="lime" x="722" y="78" width="12" height="12"/>
