@@ -12,18 +12,18 @@ I wanted to read the web without hauling a browser along, so I built **termbrows
 
 <p>
   <a href="https://github.com/dev-the-dev-while-deving/termbrowse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-termbrowse-dark.svg"><img alt="termbrowse, Rust" src="assets/card-termbrowse-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-rolldeep-dark.svg"><img alt="ROLLDEEP, TypeScript" src="assets/card-rolldeep-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/dev-the-dev-while-deving/Enigma-Hackthon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-enigma-dark.svg"><img alt="ENIGMA, Python and PyTorch" src="assets/card-enigma-light.svg" width="49%"></picture></a>
 </p>
 <p>
+  <a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-rolldeep-dark.svg"><img alt="ROLLDEEP, TypeScript" src="assets/card-rolldeep-light.svg" width="49%"></picture></a>
   <a href="https://github.com/dev-the-dev-while-deving/breakbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-breakbench-dark.svg"><img alt="breakbench, Python" src="assets/card-breakbench-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/dev-the-dev-while-deving/SmartStocks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-smartstock-dark.svg"><img alt="SmartStock, Python and Flask" src="assets/card-smartstock-light.svg" width="49%"></picture></a>
   <a href="https://github.com/dev-the-dev-while-deving/cut-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cut-dark.svg"><img alt="CUT, JavaScript" src="assets/card-cut-light.svg" width="49%"></picture></a>
 </p>
-<p>
-  <a href="https://github.com/dev-the-dev-while-deving/kokou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-kokou-dark.svg"><img alt="Kokou, macOS" src="assets/card-kokou-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/dev-the-dev-while-deving/printquote-site"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-printquote-dark.svg"><img alt="PrintQuote, TypeScript" src="assets/card-printquote-light.svg" width="49%"></picture></a>
-</p>
 
-Also: [SmartStock](https://github.com/dev-the-dev-while-deving/SmartStocks), a Flask inventory system for a DBMS course, and [Enigma](https://github.com/dev-the-dev-while-deving/Enigma-Hackthon), a 24-hour hackathon driving agent built on a Bayesian model in PyTorch.
+Also: [Kokou](https://github.com/dev-the-dev-while-deving/kokou), a focus app for the Mac, and PrintQuote, which turns a drawing or a WhatsApp RFQ into a GST-ready quote ([site](https://github.com/dev-the-dev-while-deving/printquote-site)).
 
 ## Now
 

@@ -11,8 +11,8 @@ CARDS = [  # slug, name, label, tagline, command
     ("rolldeep", "ROLLDEEP", "TYPESCRIPT", "One roll. One topic. Do the work. Never repeat.", "roll"),
     ("breakbench", "breakbench", "PYTHON", "Breaks agents on purpose and keeps the failure.", "break --replay"),
     ("cut", "CUT", "JAVASCRIPT", "A neon, hard-edged site with WebGL on scroll.", "open cut"),
-    ("kokou", "Kokou", "MACOS", "孤高, a solitary ascent. Focus, on the Mac.", "ascend"),
-    ("printquote", "PrintQuote", "TYPESCRIPT", "A drawing or WhatsApp RFQ in, a GST quote out.", "quote rfq.pdf"),
+    ("enigma", "ENIGMA", "PYTHON · PYTORCH", "Bayesian MPC agent for safe highway driving.", "drive --predict"),
+    ("smartstock", "SmartStock", "PYTHON · FLASK", "Inventory and orders with a low-stock dashboard.", "flask run"),
 ]
 
 
