@@ -51,7 +51,7 @@ Bayesian MPC agent for safe highway driving. Transformer trajectory predictor, m
 ### [🎲 ROLLDEEP](https://github.com/dev-the-dev-while-deving/rolldeep-lab)
 A local study lab. Hit ROLL, get one topic and one question, do the work. That topic never comes back.
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/Local--first-4c1d95?style=flat-square&logo=sqlite&logoColor=white" alt="Local--first">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/Local--first-4c1d95?style=flat-square&logo=sqlite&logoColor=white" alt="Local-first">
 
 </td>
 <td width="50%" valign="top">
@@ -59,7 +59,7 @@ A local study lab. Hit ROLL, get one topic and one question, do the work. That t
 ### [💥 breakbench](https://github.com/dev-the-dev-while-deving/breakbench)
 Breaks AI agents on purpose. Five attacks with replayable payloads and verdicts. Open Agent Hackathon 2026.
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/AI_Agents-db2777?style=flat-square&logo=openai&logoColor=white" alt="AI_Agents">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/AI_Agents-db2777?style=flat-square&logo=openai&logoColor=white" alt="AI agents">
 
 </td>
 </tr>
