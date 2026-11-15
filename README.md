@@ -35,6 +35,7 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 <!-- LATEST:END -->
 
 <a id="projects"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/built-dark.svg">
   <img src="assets/built-light.svg" width="100%" alt="Things I built: a rotating 3D wireframe icosahedron beside 3D extruded lettering">
