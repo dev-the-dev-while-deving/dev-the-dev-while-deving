@@ -34,7 +34,11 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 - [**breakbench**](https://github.com/dev-the-dev-while-deving/breakbench) · Breaks AI agents on purpose and keeps the failure: five attacks with replayable payloads and verdicts. Open Agent Hackathon 2026. · <sub>pushed 2026-08-28</sub>
 <!-- LATEST:END -->
 
-## Things I built <a id="projects"></a>
+<a id="projects"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/built-dark.svg">
+  <img src="assets/built-light.svg" width="100%" alt="Things I built: a rotating 3D wireframe icosahedron beside 3D extruded lettering">
+</picture>
 
 <a href="https://github.com/dev-the-dev-while-deving/termbrowse">
   <picture>
@@ -56,6 +60,11 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 - [**A coding agent that proves its work**](writing/a-coding-agent-that-proves-its-work.md): nextharness, and why "tests pass" was wrong 7 times out of 12 on my hard tasks.
 
 ## Commits
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/skyline-dark.svg">
+  <img src="profile-3d-contrib/skyline-light.svg" width="100%" alt="My GitHub contributions as a 3D isometric skyline, updated nightly">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/shiplog-dark.svg">
