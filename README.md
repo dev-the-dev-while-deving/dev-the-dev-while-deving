@@ -1,95 +1,77 @@
-<div align="center">
+<!-- Material 3 Expressive profile. Each image has a light and a dark version that follows the viewer's GitHub theme. -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4c1d95,100:db2777&height=220&text=Devarshee%20Mude&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=CS%20%40%20RV%20University%20%C2%B7%20BS%20Data%20Science%20%40%20IIT%20Madras&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Devarshee Mude. CS at RV University, BS Data Science at IIT Madras.">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="I build tools out of irritations. Devarshee Mude — CS at RV University, BS Data Science at IIT Madras.">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=C084FC&center=true&vCenter=true&width=620&lines=I+build+tools+out+of+irritations.;Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+Kotlin;Agents%2C+terminals%2C+and+local-first+apps" alt="I build tools out of irritations.">
-
-<a href="https://termbrowse.vercel.app"><img src="https://img.shields.io/badge/termbrowse-live-c084fc?style=flat-square" alt="termbrowse live site"></a>
-<img src="https://img.shields.io/badge/RV_University-Computer_Science-4c1d95?style=flat-square" alt="RV University, Computer Science">
-<img src="https://img.shields.io/badge/IIT_Madras-BS_Data_Science-db2777?style=flat-square" alt="IIT Madras, BS Data Science">
-
-</div>
-
-## 👋 About me
-
-- 🎓 Two degrees at once: **Computer Science at RV University** and the **BS in Data Science at IIT Madras**
-- 🔨 Most of what I build starts as an irritation: a browser that's too heavy, a study app that makes me choose, an agent demo that hides its failures
-- 📱 Building **Life Quest**, an Android app (Kotlin + Jetpack Compose) that turns training, routines and sleep into a game, with all data kept on the phone
-- 🧠 Interested in AI agents, ML for control systems, edge and IoT devices, and local-first software
-
-## 🛠️ Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,py,kotlin,c,react,nextjs,vite&perline=8" alt="Rust, TypeScript, Python, Kotlin, C, React, Next.js, Vite"><br>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,flask,sqlite,mysql,supabase,arduino,git&perline=8" alt="PyTorch, scikit-learn, Flask, SQLite, MySQL, Supabase, Arduino, Git">
+<p>
+  <a href="https://termbrowse.vercel.app"><img src="https://img.shields.io/badge/termbrowse-live-6750A4?style=for-the-badge" alt="termbrowse live"></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/see-projects-EADDFF?style=for-the-badge&labelColor=21005D" alt="See projects"></a>
 </p>
 
-## 🚀 Featured projects
+I'm an AI engineer. Most of my projects start as a frustration: a browser that's too heavy, a study app that forces a choice, an agent demo that hides its failures. Right now I'm working on agents, small reasoning models and ML that runs on the edge.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/frontier-dark.svg">
+  <img src="assets/frontier-light.svg" width="100%" alt="AI engineer on the frontier: AI agents, reasoning models, ML for control systems, edge AI and IoT, local-first software, agent red-teaming">
+</picture>
 
-### [🖥️ termbrowse](https://github.com/dev-the-dev-while-deving/termbrowse)
-The web, read from a terminal. Fetches the page, drops the JavaScript and lays out what's left in 256 colours. · <a href="https://termbrowse.vercel.app">live site</a>
+## Building now
 
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/ratatui-1f2937?style=flat-square&logo=rust&logoColor=white" alt="ratatui">
+**Kokou**, a focus app for Mac · **PrintQuote**, GST-ready quotes from a drawing or a WhatsApp RFQ.
 
-</td>
-<td width="50%" valign="top">
+## Things I built <a id="projects"></a>
 
-### [🚗 ENIGMA](https://github.com/dev-the-dev-while-deving/Enigma-Hackthon)
-Bayesian MPC agent for safe highway driving. Transformer trajectory predictor, mixture-of-Gaussians head, emergency-brake shield. Built in 24 hours.
+<a href="https://github.com/dev-the-dev-while-deving/termbrowse">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/termbrowse-dark.svg">
+    <img src="assets/termbrowse-light.svg" width="100%" alt="termbrowse — reads the web from a terminal (Rust)">
+  </picture>
+</a>
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<a href="https://github.com/dev-the-dev-while-deving/Enigma-Hackthon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/enigma-dark.svg"><img src="assets/enigma-light.svg" width="49%" alt="ENIGMA — Bayesian MPC agent for safe highway driving"></picture></a>
+<a href="https://github.com/dev-the-dev-while-deving/breakbench"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breakbench-dark.svg"><img src="assets/breakbench-light.svg" width="49%" alt="breakbench — breaks AI agents on purpose"></picture></a>
+<a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/rolldeep-dark.svg"><img src="assets/rolldeep-light.svg" width="49%" alt="ROLLDEEP — a free local study lab"></picture></a>
+<a href="https://github.com/dev-the-dev-while-deving/SmartStocks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/smartstock-dark.svg"><img src="assets/smartstock-light.svg" width="49%" alt="SmartStock — inventory and order management"></picture></a>
+<a href="https://github.com/dev-the-dev-while-deving/cut-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cut-dark.svg"><img src="assets/cut-light.svg" width="49%" alt="CUT — neon-brutalist site with a WebGL scene"></picture></a>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## Commits
 
-### [🎲 ROLLDEEP](https://github.com/dev-the-dev-while-deving/rolldeep-lab)
-A local study lab. Hit ROLL, get one topic and one question, do the work. That topic never comes back.
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/Local--first-4c1d95?style=flat-square&logo=sqlite&logoColor=white" alt="Local-first">
-
-</td>
-<td width="50%" valign="top">
-
-### [💥 breakbench](https://github.com/dev-the-dev-while-deving/breakbench)
-Breaks AI agents on purpose. Five attacks with replayable payloads and verdicts. Open Agent Hackathon 2026.
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/AI_Agents-db2777?style=flat-square&logo=openai&logoColor=white" alt="AI agents">
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [📦 SmartStock](https://github.com/dev-the-dev-while-deving/SmartStocks)
-Inventory and order management for a DBMS course. Stock movements, suppliers, orders and a low-stock dashboard.
-
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
-
-</td>
-<td width="50%" valign="top">
-
-### [⚡ CUT](https://github.com/dev-the-dev-while-deving/cut-studio)
-A neon-brutalist personal site with a scroll-driven WebGL scene.
-
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js">
-
-</td>
-</tr>
-</table>
-
-<sub>More: <a href="https://github.com/dev-the-dev-while-deving/kokou">Kokou</a>, a focus app for the Mac · <a href="https://github.com/dev-the-dev-while-deving/printquote-site">PrintQuote</a>, GST-ready quotes from a drawing or WhatsApp RFQ</sub>
-
-## 🐍 Contributions
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/shiplog-dark.svg">
+  <img src="assets/shiplog-light.svg" width="100%" alt="Animated git graph: commits on main, a feature branch, and a merge">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dev-the-dev-while-deving/dev-the-dev-while-deving/output/snake-dark.svg">
-  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/dev-the-dev-while-deving/dev-the-dev-while-deving/output/snake.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/dev-the-dev-while-deving/dev-the-dev-while-deving/output/snake-light.svg" width="100%" alt="Snake eating my contribution graph">
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4c1d95,100:db2777&section=footer&height=110" width="100%" alt="">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=2B2930&ring=D0BCFF&fire=D0BCFF&currStreakNum=E6E0E9&sideNums=E6E0E9&currStreakLabel=D0BCFF&sideLabels=CAC4D0&dates=CAC4D0&stroke=CAC4D0">
+  <img src="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=F3EDF7&ring=6750A4&fire=6750A4&currStreakNum=1D1B20&sideNums=1D1B20&currStreakLabel=6750A4&sideLabels=49454F&dates=49454F&stroke=49454F" width="100%" alt="GitHub commit streak">
+</picture>
+
+## Languages
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img src="assets/languages-light.svg" width="100%" alt="Languages: Rust, TypeScript, Python, Kotlin, C">
+</picture>
+
+## Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Stack: Rust, TypeScript, Python, Kotlin, C, React, Next.js, Vite, Flask, PyTorch, scikit-learn, SQLite, MySQL, Supabase, Arduino, Git. Into: AI agents, ML for control systems, edge and IoT, local-first software.">
+</picture>
+
+## Contact
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
+  <img src="assets/contact-light.svg" width="100%" alt="Got an irritation? Let's build the fix.">
+</picture>
+
+[GitHub](https://github.com/dev-the-dev-while-deving)
