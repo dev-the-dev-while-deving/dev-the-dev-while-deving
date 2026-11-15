@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="I build tools out of irritations. Devarshee Mude — CS at RV University, BS Data Science at IIT Madras.">
+  <img src="assets/header-light.svg" width="100%" alt="I build tools out of irritations. AI engineer — CS at RV University, BS Data Science at IIT Madras.">
 </picture>
 
 <p>
