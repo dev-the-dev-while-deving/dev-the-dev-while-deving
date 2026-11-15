@@ -21,6 +21,11 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 **Kokou**, a focus app for Mac · **PrintQuote**, GST-ready quotes from a drawing or a WhatsApp RFQ.
 
+**Latest pushes** <sub>(updated daily)</sub>
+
+<!-- LATEST:START -->
+<!-- LATEST:END -->
+
 ## Things I built <a id="projects"></a>
 
 <a href="https://github.com/dev-the-dev-while-deving/termbrowse">
@@ -35,6 +40,11 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 <a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/rolldeep-dark.svg"><img src="assets/rolldeep-light.svg" width="49%" alt="ROLLDEEP — a free local study lab"></picture></a>
 <a href="https://github.com/dev-the-dev-while-deving/SmartStocks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/smartstock-dark.svg"><img src="assets/smartstock-light.svg" width="49%" alt="SmartStock — inventory and order management"></picture></a>
 <a href="https://github.com/dev-the-dev-while-deving/cut-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cut-dark.svg"><img src="assets/cut-light.svg" width="49%" alt="CUT — neon-brutalist site with a WebGL scene"></picture></a>
+
+## Writing
+
+- [**Breaking AI agents on purpose**](writing/breaking-agents-on-purpose.md): why breakbench keeps every failure as a replayable record, and why it scores tool calls instead of words.
+- [**A coding agent that proves its work**](writing/a-coding-agent-that-proves-its-work.md): nextharness, and why "tests pass" was wrong 7 times out of 12 on my hard tasks.
 
 ## Commits
 

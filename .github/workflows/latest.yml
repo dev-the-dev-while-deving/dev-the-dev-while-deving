@@ -1,0 +1,39 @@
+name: Latest activity
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rewrite the LATEST block in README.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          # Three most recently pushed public repos, skipping forks and this profile repo.
+          gh api "users/$OWNER/repos?sort=pushed&per_page=20" --jq '
+            [.[] | select((.fork | not) and .name != env.OWNER)][:3][]
+            | "- [**\(.name)**](\(.html_url)) · \(.description // "no description yet") · <sub>pushed \(.pushed_at[:10])</sub>"' > latest.md
+          test -s latest.md
+          awk 'FNR==NR { block = block $0 "\n"; next }
+               /<!-- LATEST:START -->/ { print; printf "%s", block; skip = 1; next }
+               /<!-- LATEST:END -->/   { skip = 0 }
+               !skip' latest.md README.md > README.new
+          mv README.new README.md
+          rm latest.md
+      - name: Commit if changed
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update latest activity"
+          git push
