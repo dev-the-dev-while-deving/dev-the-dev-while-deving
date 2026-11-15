@@ -11,17 +11,23 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+      - name: Fetch the contribution calendar
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: .github/skyline.json
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f login="${{ github.repository_owner }}" -f query='
+            query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar {
+              totalContributions
+              weeks { contributionDays { date contributionCount contributionLevel weekday } }
+            } } } }' > "$RUNNER_TEMP/calendar.json"
+      - name: Draw the skyline and the snake
+        run: python3 tools/skyline3d.py "$RUNNER_TEMP/calendar.json" assets/
       - name: Commit if changed
         run: |
-          git add -A profile-3d-contrib
+          git add assets/skyline-light.svg assets/skyline-dark.svg
           git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

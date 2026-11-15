@@ -63,18 +63,13 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 ## Commits
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/skyline-dark.svg">
-  <img src="profile-3d-contrib/skyline-light.svg" width="100%" alt="My GitHub contributions as a 3D isometric skyline, updated nightly">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg">
+  <img src="assets/skyline-light.svg" width="100%" alt="My contributions as a 3D isometric skyline, with a snake eating each day I committed. Updated nightly.">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/shiplog-dark.svg">
   <img src="assets/shiplog-light.svg" width="100%" alt="Animated git graph: commits on main, a feature branch, and a merge">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dev-the-dev-while-deving/dev-the-dev-while-deving/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/dev-the-dev-while-deving/dev-the-dev-while-deving/output/snake-light.svg" width="100%" alt="Snake eating my contribution graph">
 </picture>
 
 <picture>
