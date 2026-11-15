@@ -64,7 +64,7 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg">
-  <img src="assets/skyline-light.svg" width="100%" alt="My contributions as a 3D isometric skyline, with a snake eating each day I committed. Updated nightly.">
+  <img src="assets/skyline-light.svg" width="100%" alt="My contributions as a 3D isometric skyline, one block per day. Updated nightly.">
 </picture>
 
 <picture>
