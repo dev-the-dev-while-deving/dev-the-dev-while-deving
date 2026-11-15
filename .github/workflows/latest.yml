@@ -19,9 +19,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
         run: |
-          # Three most recently pushed public repos, skipping forks and this profile repo.
+          # Three most recently pushed public repos, skipping forks, this profile repo, and Kokou/PrintQuote.
           gh api "users/$OWNER/repos?sort=pushed&per_page=20" --jq '
-            [.[] | select((.fork | not) and .name != env.OWNER)][:3][]
+            [.[] | select((.fork | not) and .name != env.OWNER and (.name | test("^(kokou|printquote)"; "i") | not))][:3][]
             | "- [**\(.name)**](\(.html_url)) · \(.description // "no description yet") · <sub>pushed \(.pushed_at[:10])</sub>"' > latest.md
           test -s latest.md
           awk 'FNR==NR { block = block $0 "\n"; next }

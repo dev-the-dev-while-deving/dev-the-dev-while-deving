@@ -26,8 +26,6 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
   </picture>
 </a>
 
-**Also shipping:** **Kokou**, a focus app for Mac · **PrintQuote**, GST-ready quotes from a drawing or a WhatsApp RFQ.
-
 **Latest pushes** <sub>(updated daily)</sub>
 
 <!-- LATEST:START -->
