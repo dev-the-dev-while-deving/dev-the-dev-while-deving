@@ -19,7 +19,14 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 ## Building now
 
-**Kokou**, a focus app for Mac · **PrintQuote**, GST-ready quotes from a drawing or a WhatsApp RFQ.
+<a href="https://github.com/dev-the-dev-while-deving/meant">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
+    <img src="assets/now-light.svg" width="100%" alt="Building now: Meant, swap the scroll for what you meant to do. Android app, v0.3.">
+  </picture>
+</a>
+
+**Also shipping:** **Kokou**, a focus app for Mac · **PrintQuote**, GST-ready quotes from a drawing or a WhatsApp RFQ.
 
 **Latest pushes** <sub>(updated daily)</sub>
 
@@ -43,6 +50,7 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 <a href="https://github.com/dev-the-dev-while-deving/rolldeep-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/rolldeep-dark.svg"><img src="assets/rolldeep-light.svg" width="49%" alt="ROLLDEEP — a free local study lab"></picture></a>
 <a href="https://github.com/dev-the-dev-while-deving/SmartStocks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/smartstock-dark.svg"><img src="assets/smartstock-light.svg" width="49%" alt="SmartStock — inventory and order management"></picture></a>
 <a href="https://github.com/dev-the-dev-while-deving/cut-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cut-dark.svg"><img src="assets/cut-light.svg" width="49%" alt="CUT — neon-brutalist site with a WebGL scene"></picture></a>
+<a href="https://github.com/dev-the-dev-while-deving/MiniNet"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mininet-dark.svg"><img src="assets/mininet-light.svg" width="49%" alt="Fortress-Net (MiniNet) — a self-healing secure network built in Mininet"></picture></a>
 
 ## Writing
 
