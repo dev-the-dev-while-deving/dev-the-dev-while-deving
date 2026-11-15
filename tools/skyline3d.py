@@ -20,12 +20,12 @@ OX, OY = 573, 92                         # screen position of week 0, day 0
 FONT = "'Roboto Flex','Google Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 
 THEMES = {
-    "light": dict(bg="#F3EDF7", on="#1D1B20", sub="#49454F", accent="#6750A4",
-                  chip_bg="#EADDFF", chip_fg="#21005D",
-                  levels=["#E7E0EC", "#D0BCFF", "#9A82DB", "#6750A4", "#4F378B"]),
-    "dark": dict(bg="#211F26", on="#E6E0E9", sub="#CAC4D0", accent="#D0BCFF",
-                 chip_bg="#4F378B", chip_fg="#EADDFF",
-                 levels=["#36343B", "#4F378B", "#6750A4", "#9A82DB", "#D0BCFF"]),
+    "light": dict(bg="#EDF0E4", on="#1A1C16", sub="#43483E", accent="#386A20",
+                  chip_bg="#B7F397", chip_fg="#042100",
+                  levels=["#DFE4D7", "#9CD67D", "#6FA350", "#386A20", "#205107"]),
+    "dark": dict(bg="#1E201A", on="#E2E4D9", sub="#C3C8BB", accent="#9CD67D",
+                 chip_bg="#205107", chip_fg="#B7F397",
+                 levels=["#33362E", "#205107", "#386A20", "#6FA350", "#9CD67D"]),
 }
 LEVEL = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 

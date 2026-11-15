@@ -6,8 +6,8 @@
 </picture>
 
 <p>
-  <a href="https://termbrowse.vercel.app"><img src="https://img.shields.io/badge/termbrowse-live-6750A4?style=for-the-badge" alt="termbrowse live"></a>
-  <a href="#projects"><img src="https://img.shields.io/badge/see-projects-EADDFF?style=for-the-badge&labelColor=21005D" alt="See projects"></a>
+  <a href="https://termbrowse.vercel.app"><img src="https://img.shields.io/badge/termbrowse-live-386A20?style=for-the-badge" alt="termbrowse live"></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/see-projects-B7F397?style=for-the-badge&labelColor=042100" alt="See projects"></a>
 </p>
 
 I'm an AI engineer. Most of my projects start as a frustration: a browser that's too heavy, a study app that forces a choice, an agent demo that hides its failures. Right now I'm working on agents, small reasoning models and ML that runs on the edge.
@@ -73,8 +73,8 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=2B2930&ring=D0BCFF&fire=D0BCFF&currStreakNum=E6E0E9&sideNums=E6E0E9&currStreakLabel=D0BCFF&sideLabels=CAC4D0&dates=CAC4D0&stroke=CAC4D0">
-  <img src="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=F3EDF7&ring=6750A4&fire=6750A4&currStreakNum=1D1B20&sideNums=1D1B20&currStreakLabel=6750A4&sideLabels=49454F&dates=49454F&stroke=49454F" width="100%" alt="GitHub commit streak">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=282B24&ring=9CD67D&fire=9CD67D&currStreakNum=E2E4D9&sideNums=E2E4D9&currStreakLabel=9CD67D&sideLabels=C3C8BB&dates=C3C8BB&stroke=C3C8BB">
+  <img src="https://streak-stats.demolab.com?user=dev-the-dev-while-deving&hide_border=true&border_radius=48&background=EDF0E4&ring=386A20&fire=386A20&currStreakNum=1A1C16&sideNums=1A1C16&currStreakLabel=386A20&sideLabels=43483E&dates=43483E&stroke=43483E" width="100%" alt="GitHub commit streak">
 </picture>
 
 ## Languages

@@ -17,12 +17,12 @@ FRAMES, DUR = 48, 18            # keyframes per loop, seconds per loop
 FONT = "'Roboto Flex','Google Sans','Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 
 THEMES = {
-    "light": dict(bg="#FEF7FF", front="#6750A4", back="#D0BCFF", dot="#21005D",
-                  ring="#9A82DB", grid="#E8DEF8", top="#6750A4", side="#21005D",
-                  sub="#49454F", chip_bg="#EADDFF", chip_fg="#21005D"),
-    "dark": dict(bg="#141218", front="#D0BCFF", back="#4F378B", dot="#EADDFF",
-                 ring="#9A82DB", grid="#2B2930", top="#D0BCFF", side="#4F378B",
-                 sub="#CAC4D0", chip_bg="#4F378B", chip_fg="#EADDFF"),
+    "light": dict(bg="#F9FAEF", front="#386A20", back="#9CD67D", dot="#042100",
+                  ring="#6FA350", grid="#D9E7CB", top="#386A20", side="#042100",
+                  sub="#43483E", chip_bg="#B7F397", chip_fg="#042100"),
+    "dark": dict(bg="#12140E", front="#9CD67D", back="#205107", dot="#B7F397",
+                 ring="#6FA350", grid="#282B24", top="#9CD67D", side="#205107",
+                 sub="#C3C8BB", chip_bg="#205107", chip_fg="#B7F397"),
 }
 
 
