@@ -32,7 +32,7 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 <!-- LATEST:START -->
 - [**meant**](https://github.com/dev-the-dev-while-deving/meant) · Meant: swap the scroll for what you meant to do (Android) · <sub>pushed 2026-11-15</sub>
-- [**MiniNet**](https://github.com/dev-the-dev-while-deving/MiniNet) · no description yet · <sub>pushed 2026-11-08</sub>
+- [**MiniNet**](https://github.com/dev-the-dev-while-deving/MiniNet) · Fortress-Net: a self-healing, AI-assisted secure network built in Mininet (OVS, FRR, strongSwan, Suricata) · <sub>pushed 2026-11-08</sub>
 - [**kokou**](https://github.com/dev-the-dev-while-deving/kokou) · Kokou (孤高, a solitary ascent): a focus and productivity app for the Mac. · <sub>pushed 2026-09-11</sub>
 <!-- LATEST:END -->
 
