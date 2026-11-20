@@ -17,6 +17,21 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
   <img src="assets/frontier-light.svg" width="100%" alt="AI engineer on the frontier: AI agents, reasoning models, ML for control systems, edge AI and IoT, local-first software, agent red-teaming">
 </picture>
 
+## Flagship: Paidva, a research agent that shows its work
+
+Ask most AI research tools a question and you get a confident paragraph with links. Some links don't support the claim, the "95% sure" means nothing, and nobody checked the maths. **Paidva** is my answer to that. It's a Rust agent where **the model proposes and code decides**:
+
+- **Every claim is tagged** `observed` · `sourced` · `inferred` · `knowledge` · `speculation`, so you can see where each sentence came from.
+- **Every number is computed** in a sandboxed Python run and cross-checked against simulation, never recalled from memory.
+- **Every citation is verified**: the quote must appear word for word in the source, and a separate checker must agree it supports the claim.
+- **Every answer gets a confidence score you can rank by**, and false premises get flagged instead of answered.
+
+**First eval round** (same model, alone vs. inside Paidva): on qwen3.8-27b, accuracy went from 65% to 87%, calibration error from 0.34 to 0.13, and dead citations went to zero across every run. The answers it was most confident about were right 80% of the time on the hard set, versus 38% for the plain model. The sample is still small, so these results aren't significant yet, and the write-up says so.
+
+**Where it's going:** V1 proves the system beats the bare model. V2 has the agent propose its own improvements from its failures, and tests a reasoning layer built on Nyaya logic (*pramana* evidence types and *hetvabhasa* fallacy checks). V3 asks whether a small agent can **keep improving itself round after round** instead of stalling after one gain.
+
+<sub>Rust · free-tier open-weight models · $0/month · the repo is private for now, so ask me if you'd like access.</sub>
+
 ## Building now
 
 <a href="https://github.com/dev-the-dev-while-deving/meant">
