@@ -19,6 +19,11 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 ## Flagship: Paidva, a research agent that shows its work
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/paidva-dark.svg">
+  <img src="assets/paidva-light.svg" width="100%" alt="Paidva, my flagship: a research agent that shows its work. Tagged claims, sandboxed maths, verified citations, ranked confidence. Rust, V1.">
+</picture>
+
 Ask most AI research tools a question and you get a confident paragraph with links. Some links don't support the claim, the "95% sure" means nothing, and nobody checked the maths. **Paidva** is my answer to that. It's a Rust agent where **the model proposes and code decides**:
 
 - **Every claim is tagged** `observed` · `sourced` · `inferred` · `knowledge` · `speculation`, so you can see where each sentence came from.
