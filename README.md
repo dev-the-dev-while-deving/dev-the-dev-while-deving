@@ -19,10 +19,12 @@ I'm an AI engineer. Most of my projects start as a frustration: a browser that's
 
 ## Flagship: Paidva, a research agent that shows its work
 
+<a href="https://github.com/dev-the-dev-while-deving/paidva-research-agent">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/paidva-dark.svg">
   <img src="assets/paidva-light.svg" width="100%" alt="Paidva, my flagship: a research agent that shows its work. Tagged claims, sandboxed maths, verified citations, ranked confidence. Rust, V1.">
 </picture>
+</a>
 
 Ask most AI research tools a question and you get a confident paragraph with links. Some links don't support the claim, the "95% sure" means nothing, and nobody checked the maths. **Paidva** is my answer to that. It's a Rust agent where **the model proposes and code decides**:
 
@@ -35,7 +37,7 @@ Ask most AI research tools a question and you get a confident paragraph with lin
 
 **Where it's going:** V1 proves the system beats the bare model. V2 has the agent propose its own improvements from its failures, and tests a reasoning layer built on Nyaya logic (*pramana* evidence types and *hetvabhasa* fallacy checks). V3 asks whether a small agent can **keep improving itself round after round** instead of stalling after one gain.
 
-<sub>Rust · free-tier open-weight models · $0/month · the repo is private for now, so ask me if you'd like access.</sub>
+**[→ Read the code and try it](https://github.com/dev-the-dev-while-deving/paidva-research-agent)** · <sub>Rust · free-tier open-weight models · $0/month · open source (AGPL-3.0)</sub>
 
 ## Building now
 
