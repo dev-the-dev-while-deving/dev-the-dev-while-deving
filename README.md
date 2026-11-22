@@ -37,7 +37,24 @@ Ask most AI research tools a question and you get a confident paragraph with lin
 
 **Where it's going:** V1 proves the system beats the bare model. V2 has the agent propose its own improvements from its failures, and tests a reasoning layer built on Nyaya logic (*pramana* evidence types and *hetvabhasa* fallacy checks). V3 asks whether a small agent can **keep improving itself round after round** instead of stalling after one gain.
 
-**[→ Read the code and try it](https://github.com/dev-the-dev-while-deving/paidva-research-agent)** · <sub>Rust · free-tier open-weight models · $0/month · open source (AGPL-3.0)</sub>
+**[→ Read the code and try it](https://github.com/dev-the-dev-while-deving/paidva-research-agent)** · <sub>Rust · free-tier open-weight models · $0/month</sub>
+
+### Flagship Benchmark: Paidva-Bench, real-world AI evaluation with real error bars
+
+<a href="https://github.com/dev-the-dev-while-deving/paidva-bench">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/paidva-bench-dark.svg">
+  <img src="assets/paidva-bench-light.svg" width="100%" alt="Paidva-Bench, flagship benchmark suite: 500 real-world research tasks across 8 domains and 6 workflows with Wilson 95% CIs and exact McNemar tests.">
+</picture>
+</a>
+
+Small eval sets hide massive noise (±18 pts at n=25), and trivia leaderboards don't reflect how people actually research. **Paidva-Bench** is the open, model-agnostic test suite built to measure any model or agent honestly:
+
+- **500 public tasks across 8 relatable domains** (healthcare, finance, business/SaaS, software/ML, science/climate, economics/policy, legal/ops, everyday decisions) and **6 workflows** (messy CSVs, multi-file contradictions, decision math, literature synthesis, false-premise & null-effect abstention, messy multi-turn chats), plus a separate unpublished 500-task held-out split.
+- **Public benchmark bridge** to SimpleQA Verified (1,000), FRAMES (824), SciFact (300), and GSM-Symbolic alongside provenance-tagged published baselines for regular frontier models.
+- **Statistical rigor built in:** 95% Wilson CIs, cluster-adjusted SEs, exact McNemar p-values, ECE, Brier score, and Top-50% Selective Accuracy.
+
+**[→ Benchmark any model](https://github.com/dev-the-dev-while-deving/paidva-bench)** · <sub>Python · model-agnostic · Apache-2.0</sub>
 
 ## Building now
 
