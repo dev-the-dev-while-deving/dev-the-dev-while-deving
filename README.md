@@ -51,7 +51,7 @@ Ask most AI research tools a question and you get a confident paragraph with lin
 **Latest pushes** <sub>(updated daily)</sub>
 
 <!-- LATEST:START -->
-- [**paidva-research-agent**](https://github.com/dev-the-dev-while-deving/paidva-research-agent) · Paidva: a research and statistics agent that shows its work. Tagged claims, sandboxed maths, verified citations, confidence you can rank by. Rust · free-tier models · AGPL-3.0. · <sub>pushed 2026-11-20</sub>
+- [**paidva-research-agent**](https://github.com/dev-the-dev-while-deving/paidva-research-agent) · Paidva: a research and statistics agent that shows its work. Tagged claims, sandboxed maths, verified citations, confidence you can rank by. Rust · free-tier models · AGPL-3.0. · <sub>pushed 2026-11-22</sub>
 - [**meant**](https://github.com/dev-the-dev-while-deving/meant) · Meant: swap the scroll for what you meant to do (Android) · <sub>pushed 2026-11-15</sub>
 - [**MiniNet**](https://github.com/dev-the-dev-while-deving/MiniNet) · Fortress-Net: a self-healing, AI-assisted secure network built in Mininet (OVS, FRR, strongSwan, Suricata) · <sub>pushed 2026-11-08</sub>
 <!-- LATEST:END -->
