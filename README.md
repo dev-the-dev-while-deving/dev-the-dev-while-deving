@@ -69,8 +69,8 @@ Small eval sets hide massive noise (±18 pts at n=25), and trivia leaderboards d
 
 <!-- LATEST:START -->
 - [**paidva-research-agent**](https://github.com/dev-the-dev-while-deving/paidva-research-agent) · Paidva: a research and statistics agent that shows its work. Tagged claims, sandboxed maths, verified citations, confidence you can rank by. Rust · free-tier models · AGPL-3.0. · <sub>pushed 2026-11-22</sub>
+- [**paidva-bench**](https://github.com/dev-the-dev-while-deving/paidva-bench) · Flagship real-world AI research & reasoning benchmark suite: 500 tasks across 8 domains x 6 workflows, statistical error bars, and public benchmark bridge. · <sub>pushed 2026-11-22</sub>
 - [**meant**](https://github.com/dev-the-dev-while-deving/meant) · Meant: swap the scroll for what you meant to do (Android) · <sub>pushed 2026-11-15</sub>
-- [**MiniNet**](https://github.com/dev-the-dev-while-deving/MiniNet) · Fortress-Net: a self-healing, AI-assisted secure network built in Mininet (OVS, FRR, strongSwan, Suricata) · <sub>pushed 2026-11-08</sub>
 <!-- LATEST:END -->
 
 <a id="projects"></a>
